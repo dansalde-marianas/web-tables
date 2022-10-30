@@ -1,0 +1,60 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+table {
+    border-collapse: separate;
+    width: 100%;
+    display: table;
+}
+div.schedule-container {
+    background-color: lightyellow;
+    padding: 20px;
+    border: 2px solid rgb(73, 72, 72);
+}
+table.schedule {
+    border: 5px ridge rgb(29, 97, 97);
+    border-collapse: collapse;
+    font-size: 11px;
+}
+
+table.schedule td, th{
+    padding: 5px;
+    border: 1px solid black;
+    background-color: inherit;
+    word-wrap: break-all;
+}
+
+table.schedule thead {
+    background-color: rgb(17, 0, 114);
+    color: white;
+}
+
+table.schedule tfoot {
+    background-color: rgb(17, 0, 114);
+    color: white;
+}
+
+td.stanned {
+    background-color: rgb(255, 122, 224);
+    text-align: center;
+}
+table caption {
+    text-align: right;
+    caption-side: bottom;
+}
+col#dayofWeek{
+    background-color: slategray;
+    width:26%;
+}
+dl {
+    display: table;
+    border-collapse: collapse;
+    width: 300px;
+}
+dl div {
+    display: table-row;
+}
+
+article {
+    column-width: 30%;
+}
